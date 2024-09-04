@@ -1,0 +1,525 @@
+body{
+    font-family: sans-serif;
+    background-color: #1A1A1A;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23151515' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23101010' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%230a0a0a' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23050505' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23000000' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.options{
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+.right-bar{
+    float:right;
+    width:70%;
+    margin:0;
+    padding:0;
+}
+.left-bar{
+    position: fixed;
+    
+    float:left;
+    width:28%;
+    margin:0;
+    padding:0;
+    border-right: 1px solid #edeee8;
+    height:200vh;
+    background:
+    repeating-linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0) calc(-650%/13) calc(50%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(100%/13),
+        rgba(0, 0, 0, 0) 0 calc(150%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(200%/13),
+        rgba(0, 0, 0, 0) 0 calc(250%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(300%/13)
+    ),
+    repeating-linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0) calc(-650%/13) calc(50%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(100%/13),
+        rgba(0, 0, 0, 0) 0 calc(150%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(200%/13),
+        rgba(0, 0, 0, 0) 0 calc(250%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(300%/13)
+    ) 20px 20px,
+    repeating-linear-gradient(
+        -45deg,
+        rgba(0, 0, 0, 0) calc(-650%/13) calc(50%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(100%/13),
+        rgba(0, 0, 0, 0) 0 calc(150%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(200%/13),
+        rgba(0, 0, 0, 0) 0 calc(250%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(300%/13)
+    ),
+    repeating-linear-gradient(
+        -45deg,
+        rgba(0, 0, 0, 0) calc(-650%/13) calc(50%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(100%/13),
+        rgba(0, 0, 0, 0) 0 calc(150%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(200%/13),
+        rgba(0, 0, 0, 0) 0 calc(250%/13),
+        rgba(59, 56, 56, 0.7) 0 calc(300%/13)
+    ) 20px 20px #000000;
+background-size: 40px 40px;
+overflow-y: auto;
+}
+.container{
+    width: 80%;
+    margin-top: 50px;
+    margin: auto;
+    transition: 0.5s;
+    
+}
+header{
+    display:inline-block;
+    font-size: 30px;
+    
+}
+/*
+.left-bar .shopping{
+    position: relative;
+    text-align: right;
+}
+.left-bar .shopping img{
+    width: 40px;
+}
+.left-bar .shopping span{
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
+}
+
+    */
+.shopping{
+    height:80px;
+    width:60%;
+    position: relative;
+    background-color: rgb(87, 255, 45);
+    margin: auto;
+    margin-top:30px;
+    border-radius: 40px;
+}
+.shopping img{
+    height:100%;;
+    width:80px;
+    margin-left:30px;
+}
+.shopping span{
+    background-color: red;
+    border-radius: 50%;
+    position:absolute;
+    color:white;
+    padding:3px 10px;
+    left:90px;
+   
+    
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 30px;
+    
+    
+}
+.list .item {
+    text-align: center;
+    background-color: #2f2f2f;
+    padding: 20px;
+    box-shadow: 0 50px 50px #000000;
+    letter-spacing: 1px;
+}
+.list .item img{
+    width:250px;
+    height:auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.item img:hover{
+    transform: scale(1.1);
+}
+.list .item .title{
+    font-weight: 600;
+    font-size:15px;
+    color:#edeee8;
+}
+.list .item .price{
+    margin: 10px;
+    color: #99e4f7;
+}
+.list .item .details{
+    color:rgb(34, 34, 255);
+    float:left;
+}
+.list .item button{
+    background-color: #82e80e;
+    color: #000000;
+    width: auto;
+    padding: 10px;
+    font-weight: 900;
+}
+.list .item button:hover{
+    color: #9ce80e;
+    background-color: #000000;
+}
+
+ul.horizontal-list {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    gap: 10px; /* Space between items */
+}
+
+ul.horizontal-list li {
+    display: flex;
+    align-items: center;
+    flex: 1 1 calc(50% - 10px); /* Two items per row, accounting for the gap */
+    box-sizing: border-box;
+    padding: 5px; /* Optional: padding inside each item */
+}
+
+ul.horizontal-list a {
+    text-decoration: none; /* Removes underline */
+    font-size: 20px; /* Normal text weight */
+    font-style: normal; /* Normal text style */
+    margin-left: 20px;
+    background-color: #82e80e;
+    color: #000000;
+}
+ul.horizontal-list a:hover { color: #9ce80e; background-color: #000000;}
+ul.horizontal-list input[type="checkbox"] {
+    margin: 0; /* Removes default margin */
+}
+
+.card{
+    position: fixed;
+    top:0;
+    left: 100%;
+    width: 500px;
+    background-color: #453E3B;
+    height: 100vh;
+    transition: 0.5s;
+}
+.active .card{
+    left: calc(100% - 500px);
+}
+.active .container{
+   transform: translateX(-200px);
+}
+.card h1{
+    color: #0ee83d;
+    font-weight: 100;
+    margin: 0;
+    padding: 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.card .checkOut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.card .checkOut div{
+    background-color: #1C1F25;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    color:white;
+}
+.card .checkOut div:nth-child(2){
+    background-color: #0ee819;
+    color: black
+}
+.listCard li{
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    color: #fff;
+    row-gap: 10px;
+}
+.listCard li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+
+.listCard li img{
+    width: 90%;
+    
+}
+.listCard li button{
+    border: none;
+}
+.listCard .count{
+    margin: 0 10px;
+}
+.lez{
+    background-image: linear-gradient(45deg, rgb(209, 255, 6), rgb(8, 255, 28),rgb(233, 233, 15));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.back{
+   width:100%;
+   height:80px;
+    
+   font-size: 40px;
+   
+}
+
+.blur-window {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow:auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.inside-blurwindow {
+    background-color: #1a1a1a;
+    height:80%;
+    width:auto;
+    margin:auto;
+}
+/* From Uiverse.io by gharsh11032000 */ 
+.animated-button a{
+    text-decoration: none;
+    color: greenyellow;
+}
+.animated-button a:hover{
+    text-decoration: none;
+    color:black;
+}
+.animated-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin:20px 0 0 20px;
+    padding: 16px 36px;
+    list-style-type: none;
+    border: 4px solid;
+    border-color: transparent;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color: greenyellow;
+    box-shadow: 0 0 0 2px greenyellow;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button svg {
+    position: absolute;
+    width: 24px;
+    fill: greenyellow;
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button .arr-1 {
+    right: 16px;
+  }
+  
+  .animated-button .arr-2 {
+    left: -25%;
+  }
+  
+  .animated-button .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button .text {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: #212121;
+    border-radius: 12px;
+  }
+  
+  .animated-button:hover .arr-1 {
+    right: -25%;
+  }
+  
+  .animated-button:hover .arr-2 {
+    left: 16px;
+  }
+  
+  .animated-button:hover .text {
+    transform: translateX(12px);
+  }
+  
+  .animated-button:hover svg {
+    fill: #212121;
+  }
+  
+  .animated-button:active {
+    scale: 0.95;
+    box-shadow: 0 0 0 4px greenyellow;
+  }
+  
+  .animated-button:hover .circle {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+  }
+  /* From Uiverse.io by vinodjangid07 */ 
+.button {
+    width: 180px;
+    height: 40px;
+    background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(139, 113, 255);
+    transition-duration: .3s;
+  }
+  
+  .cartIcon {
+    width: 14px;
+    height: fit-content;
+  }
+  
+  .cartIcon path {
+    fill: white;
+  }
+  
+  .button:active {
+    transform: translate(2px ,0px);
+    box-shadow: 0px 1px 0px rgb(139, 113, 255);
+    padding-bottom: 1px;
+  }
+  /* From Uiverse.io by aadium */ 
+/* From Uiverse.io by aadium */ 
+.paste-button {
+    position: relative;
+    display: inline-block;
+    float:right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:60px;
+  }
+  
+ /* Button Container */
+.paste-button {
+    position: relative;
+    display: inline-block;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+}
+
+/* Main Button Style */
+.buttoner {
+    background-color: #adff2f; /* Green Yellow */
+    color: #212121;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button Hover State */
+.buttoner:hover {
+    background-color: #9acd32; /* Darker Green Yellow */
+    color: #212121;
+}
+
+/* Dropdown Content */
+.dropdown-contenter {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    background-color: #212121;
+    border: 2px solid #adff2f; /* Green Yellow */
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Dropdown Links */
+.dropdown-contenter a {
+    color: #adff2f; /* Green Yellow */
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.1s, color 0.1s;
+}
+
+/* Dropdown Link Hover State */
+.dropdown-contenter a:hover {
+    background-color: #adff2f; /* Green Yellow */
+    color: #212121;
+}
+
+/* Dropdown Link Focus State */
+.dropdown-contenter a:focus {
+    background-color: #212121;
+    color: #adff2f; /* Green Yellow */
+}
+
+/* Top Border Radius */
+.dropdown-contenter #top:hover {
+    border-radius: 0px 13px 0px 0px;
+}
+
+/* Bottom Border Radius */
+.dropdown-contenter #bottom:hover {
+    border-radius: 0px 0px 13px 13px;
+}
+
+/* Hover State for Dropdown Button */
+.paste-button:hover .buttoner {
+    border-radius: 15px 15px 0px 0px;
+}
+
+/* Show Dropdown on Button Hover */
+.paste-button:hover .dropdown-contenter {
+    display: block;
+}
