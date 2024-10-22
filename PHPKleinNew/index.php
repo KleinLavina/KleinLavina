@@ -6,6 +6,7 @@
     <title>Nyxify Collection - Home</title>
     <link rel="stylesheet" href="css/styles.css">
     <?php include'data.php'?>
+    <script src="js/myjs.js"></script>
 </head>
 <body>
     <header>
