@@ -6,7 +6,7 @@
     <title>About Us - Delicacy Fruits</title>
     <style>
         .about-body {
-            font-family: Arial, sans-serif;
+           
             margin: 0;
             padding: 0;
             background-color: #f8f4f0; /* Light beige/white */
@@ -63,9 +63,7 @@
             color: #f9c40e;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
-        }
+     
     </style>
 </head>
 <body class="about-body">
