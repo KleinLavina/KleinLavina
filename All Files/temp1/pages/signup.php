@@ -71,6 +71,20 @@ if (isset($_SESSION['error_msg'])) {
         </div>
     </div>
 </div>
+<script>
+    // Show / Hide password
+    const togglePassword = document.getElementById('togglePassword');
+    const passwordField = document.getElementById('password');
+
+    togglePassword.addEventListener('click', function (e) {
+        // Toggle the type attribute
+        const type = passwordField.type === 'password' ? 'text' : 'password';
+        passwordField.type = type;
+
+        // Toggle the eye icon
+        this.classList.toggle('fa-eye-slash');
+    });
+</script>
 <?php
 $_SESSION['error_msg'] = '';
 ?>
