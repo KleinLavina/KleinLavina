@@ -37,11 +37,16 @@ if (isset($_SESSION['error_msg'])) {
                        placeholder="Enter your username" 
                        title="Your username (e.g., john_doe)"/><br /><br />
                 
-                <label style="font-weight: bold; color: #e8ebe4;">PASSWORD:</label><br />
-                <input type="password" name="password" class="box" 
-                       style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #b7bfa9; border-radius: 5px; background-color: #11130e; color: #e8ebe4;" 
-                       placeholder="Enter your password" 
-                       title="Your password (8+ characters)"/><br/><br />
+                 <label style="font-weight: bold; color: #e8ebe4;">PASSWORD:</label><br />
+                <div style="position: relative;">
+                    <input type="password" name="password" class="box" 
+                           id="password" 
+                           style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #c1c1c1; border-radius: 5px; background-color: #11130e; color: #e8ebe4;" 
+                           placeholder="Enter your password" 
+                           title="Your password (8+ characters)"/><br />
+                    <i class="fa fa-eye" id="togglePassword" 
+                       style="position: absolute; top: 10px; right: 10px; cursor: pointer; font-size: 18px;"></i>
+                </div><br/><br />
                        
                 <label style="font-weight: bold; color: #e8ebe4;">CAPTCHA:</label>
                 <img id="imgcap" onclick="reloadCaptcha();return false;" src="inc/captcha.php" alt="CAPTCHA" style="height:30px;width:70px;position:relative;top:5px;">
