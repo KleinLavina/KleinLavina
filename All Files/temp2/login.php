@@ -26,10 +26,15 @@ if (isset($_SESSION['error_msg'])) {
                        title="Your username (e.g., john_doe)"/><br /><br />
                 
                 <label style="font-weight: bold; color: #111;">PASSWORD:</label><br />
-                <input type="password" name="password" class="box" 
-                       style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #c1c1c1; border-radius: 5px; background-color: #fff; color: #111;" 
-                       placeholder="Enter your password" 
-                       title="Your password (8+ characters)"/><br/><br />
+                <div style="position: relative;">
+                    <input type="password" name="password" class="box" 
+                           id="password" 
+                           style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #c1c1c1; border-radius: 5px; background-color: #fff; color: #111;" 
+                           placeholder="Enter your password" 
+                           title="Your password (8+ characters)"/><br />
+                    <i class="fa fa-eye" id="togglePassword" 
+                       style="position: absolute; top: 10px; right: 10px; cursor: pointer; font-size: 18px;"></i>
+                </div><br/><br />
                        
                 <label style="font-weight: bold; color: #111;">CAPTCHA:</label>
                 <img id="imgcap" onclick="reloadCaptcha();return false;" src="inc/captcha.php" alt="CAPTCHA" style="height:30px;width:70px;position:relative;top:5px;">
@@ -54,6 +59,20 @@ if (isset($_SESSION['error_msg'])) {
         </div>
     </div>
 </div>
+<script>
+    // Show / Hide password
+    const togglePassword = document.getElementById('togglePassword');
+    const passwordField = document.getElementById('password');
+
+    togglePassword.addEventListener('click', function (e) {
+        // Toggle the type attribute
+        const type = passwordField.type === 'password' ? 'text' : 'password';
+        passwordField.type = type;
+
+        // Toggle the eye icon
+        this.classList.toggle('fa-eye-slash');
+    });
+</script>
 <?php
 $_SESSION['error_msg'] = '';
 ?>
