@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&color=0A66C2&center=true&vCenter=true&width=900&lines=Hi%2C+I%27m+Klein+Lavina;Backend-Focused+Software+Developer;Django+%7C+JavaScript+%7C+PostgreSQL;Building+Web-Based+Systems" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&center=true&vCenter=true&width=900&gradient=true&colors=0A66C2,FF4ECD,8B5CF6&lines=Hi%2C+I%27m+Klein+Lavina;Backend-Focused+Software+Developer;Building+Web-Based+Systems;Turning+Problems+Into+Simple+Solutions;Django+%7C+JavaScript+%7C+PostgreSQL" />
 </p>
+
 
 # 👋 Hello, I’m Klein Lavina
 
