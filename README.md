@@ -71,7 +71,4 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KleinLavina&theme=dark&hide_border=false&layout=compact)
 
 ---
-![](https://github-profile-trophy.vercel.app/?username=KleinLavina&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-![](https://visitcount.itsvg.in/api?id=KleinLavina&icon=0&color=0)
 
