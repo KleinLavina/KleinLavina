@@ -10,7 +10,7 @@
 
 ### ✅ PHILNITS Passer  
 - **Examinee No.:** IP4500348  
-- **Name:** Laviña, Klein F.  
+- **Registered Name:** Laviña, Klein F.  
 - 🔗 https://philnits.org/passers-ip/
 
 ### 🏫 Education  
@@ -21,9 +21,11 @@
 
 ## 📫 Contact
 
-📧 **Email:** kleinlav7@gmail.com
+📧 **Email:** kleinlav7@gmail.com  
+📘 **Facebook:** https://www.facebook.com/kleinlavina  
 
 ---
+
 ## 🛠️ Tech Stack
 
 ### 🧑‍💻 Programming Languages
@@ -51,6 +53,7 @@
 
 ### 🛠️ Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=apache&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
@@ -59,3 +62,23 @@
 
 ---
 
+## 📊 GitHub Stats
+
+> ⚠️ **Note:** Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username  
+> (GitHub stats do **not work** with spaces in the username)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
+
+![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=false)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&theme=dark&hide_border=false&layout=compact)
+
+---
+
+## 🏆 GitHub Trophies
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+---
+
+![Profile Views](https://visitcount.itsvg.in/api?id=YOUR_GITHUB_USERNAME&icon=0&color=0)
