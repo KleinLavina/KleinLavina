@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&color=0A66C2&center=true&vCenter=true&width=900&lines=Hi%2C+I%27m+Klein+Lavina;Backend-Focused+Software+Developer;Django+%7C+JavaScript+%7C+PostgreSQL;Building+Web-Based+Systems" />
+</p>
+
 # 👋 Hello, I’m Klein Lavina
 
 💻 **Software Developer** — Backend-focused  
