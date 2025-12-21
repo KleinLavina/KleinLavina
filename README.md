@@ -64,21 +64,21 @@
 
 ## 📊 GitHub Stats
 
-> ⚠️ **Note:** Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username  
+> ⚠️ **Note:** Replace `KleinLavina` with your actual GitHub username  
 > (GitHub stats do **not work** with spaces in the username)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KleinLavina&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=false)
+![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=KleinLavina&theme=dark&hide_border=false)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&theme=dark&hide_border=false&layout=compact)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KleinLavina&theme=dark&hide_border=false&layout=compact)
 
 ---
 
 ## 🏆 GitHub Trophies
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=KleinLavina&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 ---
 
-![Profile Views](https://visitcount.itsvg.in/api?id=YOUR_GITHUB_USERNAME&icon=0&color=0)
+![Profile Views](https://visitcount.itsvg.in/api?id=KleinLavina&icon=0&color=0)
