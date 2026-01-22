@@ -5,7 +5,7 @@
 
 # 👋 Hello, I’m Klein Lavina
 
-💻 **Software Developer** — Backend-focused  
+💻 **Aspiring Web/Software Developer** — 
 🌐 Passionate about building **web-based systems** and transforming real-world problems into **simple, effective solutions**  
 ⚙️ Interested in designing systems that **streamline workflows and improve efficiency**
 
