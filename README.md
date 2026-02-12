@@ -3,11 +3,14 @@
 </p>
 
 
-# 👋 Hello, I’m Klein Lavina
+# 👋 Hello, I’m Klein Lavina  
 
-💻 **Aspiring Web/Software Developer** — 
-🌐 Passionate about building **web-based systems** and transforming real-world problems into **simple, effective solutions**  
-⚙️ Interested in designing systems that **streamline workflows and improve efficiency**
+<p>
+  <i class="fas fa-code"></i> <strong>Full Stack Developer</strong><br>
+  <i class="fas fa-globe"></i> I build scalable web systems that turn real-world problems into clean, practical solutions.<br>
+  <i class="fas fa-gears"></i> Focused on performance, efficiency, and delivering systems that simply work.
+</p>
+
 
 ---
 
@@ -28,5 +31,6 @@
 
 📧 **Email:** kleinlav7@gmail.com  
 📘 **Facebook:** https://www.facebook.com/kleinlavina  
+
 
 
