@@ -7,7 +7,7 @@
 
 <p align="center">
   💻 <strong>FULL STACK DEVELOPER</strong><br/>
-  <em>As they say, “Problem-solving skills are what pay the bills.” — and I believe in it.</em>
+  As they say, <em>“Problem-solving skills are what pay the bills.”</em> — and I believe in it.
 </p>
 
 <p align="center">
@@ -34,5 +34,6 @@
 
 📧 **Email:** kleinlav7@gmail.com  
 📘 **Facebook:** https://www.facebook.com/kleinlavina  
+
 
 
