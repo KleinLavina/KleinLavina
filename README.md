@@ -16,24 +16,18 @@
 </p>
 
 ---
-
 ## 🎓 Certifications & Education
 
-### ✅ PHILNITS Passer  
-- **Examinee No.:** IP4500348  
-- **Registered Name:** Laviña, Klein F.  
-- 🔗 https://philnits.org/passers-ip/
+### ✅ PHILNITS Passer
+**Examinee No.:** IP4500348 • **Registered Name:** Laviña, Klein F. • 🔗 [philnits.org](https://philnits.org/passers-ip/)
 
-### 🏫 Education  
-**Saint Joseph College (SJC), Maasin**  
-🔗 https://www.sjc.edu.ph/
+### 🏫 Education
+**Saint Joseph College (SJC), Maasin** • 🔗 [sjc.edu.ph](https://www.sjc.edu.ph/)
 
 ---
 
 ## 📫 Contact
-
-📧 **Email:** kleinlav7@gmail.com  
-📘 **Facebook:** https://www.facebook.com/kleinlavina  
+📧 [kleinlav7@gmail.com](mailto:kleinlav7@gmail.com) • 📘 [Facebook](https://www.facebook.com/kleinlavina)
 
 
 
