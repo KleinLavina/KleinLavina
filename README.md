@@ -3,11 +3,14 @@
 </p>
 
 
-# 👋 Hello, I’m Klein Lavina
+<h1 align="center">👋 Hello, I’m Klein Lavina</h1>
 
-💻 **Aspiring Web/Software Developer** — 
-🌐 Passionate about building **web-based systems** and transforming real-world problems into **simple, effective solutions**  
-⚙️ Interested in designing systems that **streamline workflows and improve efficiency**
+<p align="center">
+  💻 <strong>Full Stack Developer</strong><br/>
+  🌐 I design and build scalable web-based systems that solve real-world problems.<br/>
+  ⚙️ Committed to clean architecture, performance, and workflow efficiency.
+</p>
+
 
 ---
 
@@ -28,3 +31,4 @@
 
 📧 **Email:** kleinlav7@gmail.com  
 📘 **Facebook:** https://www.facebook.com/kleinlavina  
+
