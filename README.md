@@ -6,11 +6,14 @@
 <h1 align="center">👋 Hello, I’m Klein Lavina</h1>
 
 <p align="center">
-  💻 <strong>Full Stack Developer</strong><br/>
+  💻 <strong>FULL STACK DEVELOPER</strong><br/>
+  <em>As they say, “Problem-solving skills are what pay the bills.” — and I believe in it.</em>
+</p>
+
+<p align="center">
   🌐 I design and build scalable web-based systems that solve real-world problems.<br/>
   ⚙️ Committed to clean architecture, performance, and workflow efficiency.
 </p>
-
 
 ---
 
@@ -31,4 +34,5 @@
 
 📧 **Email:** kleinlav7@gmail.com  
 📘 **Facebook:** https://www.facebook.com/kleinlavina  
+
 
