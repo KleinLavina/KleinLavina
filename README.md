@@ -27,7 +27,8 @@
 ---
 
 ## 📫 Contact
-📧 [kleinlav7@gmail.com](mailto:kleinlav7@gmail.com) • 📘 [Facebook](https://www.facebook.com/kleinlavina)
+📧 [kleinlav7@gmail.com](mailto:kleinlav7@gmail.com) • 📘 [Facebook](https://www.facebook.com//klein.lavina.12/)
+
 
 
 
