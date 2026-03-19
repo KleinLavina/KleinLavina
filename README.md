@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&center=true&vCenter=true&width=900&gradient=true&colors=0A66C2,8B5CF6,FF4ECD&lines=Hi%2C+I%27m+Klein+Lavina;Backend-Focused+Full-Stack+Developer;Building+Scalable+Web-Based+Systems;Turning+Real-World+Problems+into+Practical+Solutions;Django+%7C+React+%7C+JavaScript+%7C+PostgreSQL;Focused+on+Clean+Architecture+and+Efficient+Workflows" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&center=true&vCenter=true&width=900&gradient=true&colors=0A66C2,8B5CF6,FF4ECD&lines=Hi%2C+I%27m+Klein+Lavina;Backend-Focused+Full-Stack+Developer;Building+Scalable+Web-Based+Systems;_Turning+Real-World+Problems+into+Practical+Solutions;Django+%7C+React+%7C+JavaScript+%7C+PostgreSQL;Focused+on+Clean+Architecture+and+Efficient+Workflows" />
 </p>
 
 <h1 align="center">
