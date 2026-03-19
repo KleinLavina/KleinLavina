@@ -1,24 +1,3 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&center=true&vCenter=true&width=900&gradient=true&colors=0A66C2,8B5CF6,FF4ECD&lines=Hi%2C+I%27m+Klein+Lavina;Backend-Focused+Full-Stack+Developer;Building+Scalable+Web-Based+Systems;_Turning+Real-World+Problems+into+Practical+Solutions;Django+%7C+React+%7C+JavaScript+%7C+PostgreSQL;Focused+on+Clean+Architecture+and+Efficient+Workflows" />
-</p>
-
-<h1 align="center">
-  <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/hand-stop.svg" width="24" alt="Greeting icon" />
-  Hello, I’m Klein Laviña
-</h1>
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/code.svg" width="16" alt="Code icon" />
-  <strong>BACKEND-FOCUSED FULL-STACK DEVELOPER</strong><br/>
-  <em>Building reliable software through problem-solving, clean architecture, and continuous learning.</em>
-</p>
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/world.svg" width="16" alt="World icon" />
-  I design and develop scalable web-based systems that solve real-world problems.<br/>
-  <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/settings.svg" width="16" alt="Settings icon" />
-  I focus on maintainable code, performance optimization, and efficient workflows.
-</p>
 
 ---
 
