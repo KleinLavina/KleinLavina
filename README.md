@@ -3,33 +3,32 @@
 </p>
 
 <h1 align="center">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hello.svg" width="24"/> 
+  <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/hand-stop.svg" width="24"/> 
   Hello, I’m Klein Laviña
 </h1>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/code.svg" width="16"/> 
+  <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/code.svg" width="16"/> 
   <strong>FULL-STACK DEVELOPER</strong><br/>
   <em>“Problem-solving is the foundation of valuable software.”</em>
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/internetexplorer.svg" width="16"/> 
+  <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/world.svg" width="16"/> 
   I design and develop scalable web-based systems focused on solving real-world problems.<br/>
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gears.svg" width="16"/> 
+  <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/settings.svg" width="16"/> 
   I prioritize clean architecture, performance optimization, and efficient workflows.
 </p>
 
 ---
 
-## <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/graduationcap.svg" width="18"/> Certifications & Education
+## <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/school.svg" width="18"/> Certifications & Education
 
-### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/certificate.svg" width="16"/> PHILNITS Certified Passer
+### <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/certificate.svg" width="16"/> PHILNITS Certified Passer
 **Examinee No.:** IP4500348 • **Registered Name:** Laviña, Klein F. • 🔗 [philnits.org](https://philnits.org/passers-ip/)
 
-### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/school.svg" width="16"/> Education
+### <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/outline/building.svg" width="16"/> Education
 **Saint Joseph College (SJC), Maasin** • 🔗 [sjc.edu.ph](https://www.sjc.edu.ph/)
-
 ---
 
 ## <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/maildotru.svg" width="18"/> Contact
