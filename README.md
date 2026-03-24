@@ -15,5 +15,6 @@
 ---
 
 
-📧 Email: [kleinlav7@gmail.com](mailto:kleinlav7@gmail.com)
-          [kleinlav7@gmail.com](mailto:kleinlav7@gmail.com)
+📧 Email: [kleinlav7@gmail.com](mailto:kleinlav7@gmail.com)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[fklein.lavina09@gmail.com](mailto:fklein.lavina09@gmail.com)
